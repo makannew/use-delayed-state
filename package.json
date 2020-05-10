@@ -1,0 +1,25 @@
+{
+  "name": "use-delayed-state",
+  "version": "1.0.0",
+  "description": "React useState hook with additional delayed setState (Debouncing)",
+  "main": "use-delayed-state.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makannew/use-delayed-state.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "useState",
+    "debouncing"
+  ],
+  "author": "Makan Edrisi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makannew/use-delayed-state/issues"
+  },
+  "homepage": "https://github.com/makannew/use-delayed-state#readme"
+}
