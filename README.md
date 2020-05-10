@@ -3,6 +3,7 @@
 > React hook for setting State with delay
 
 [![NPM](https://img.shields.io/npm/v/use-delayed-state.svg)](https://www.npmjs.com/package/use-delayed-state) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 This is an enhanced `useState` hook which accepts delay duration for `setState` as an extra parameter.
 
 # Why
@@ -26,7 +27,15 @@ npm install --save use-delayed-state
 import React from 'react'
 import useDelayedState from 'use-delayed-state'
 
-export default function 
+export default function myComponent() {
+  const [state, setState] = useDelayedState(
+    'Hello, I will be change in 5 seconds'
+  )
+
+  setState('I am new State', 5000)
+
+  return <div>{state}</div>
+}
 ```
 
 ## License
