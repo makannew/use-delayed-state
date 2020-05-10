@@ -17,7 +17,7 @@ It is also a handy tool for applying timing logics inside react components e.g. 
 
 ## Install
 
-```bash
+```console
 npm install --save use-delayed-state
 ```
 
