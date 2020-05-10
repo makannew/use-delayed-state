@@ -8,7 +8,7 @@ This is an enhanced `useState` hook which accepts delay for `setState` as an ext
 
 ## Use cases
 
-It can be used for [debouncing](https://css-tricks.com/debouncing-throttling-explained-examples/#article-header-id-0) which simply delays all consecuative attempts for setting a state to make sure only the last update is executed.
+It can be used for [debouncing](https://css-tricks.com/debouncing-throttling-explained-examples/#article-header-id-0) which simply delays all consecuative attempts for setting a state and if the last call persist for enough time the actual `setState` runs.
 
 It is also a handy tool for applying timing logics inside react components e.g. Showing a notification for few seconds.
 
