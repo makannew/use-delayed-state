@@ -41,6 +41,32 @@ In above example `State` will be updated after 5 second.
 
 [Debouncing example](https://makannew.github.io/use-delayed-state/) is more advance implementation of this hook which the source code available [here](https://github.com/makannew/use-delayed-state/blob/master/example/src/App.js).
 
+## Usage details
+
+
+
+```jsx
+const [state, setState, cancelSetState] = useDelayedState(initialState);
+
+// using like regular useState hook
+// it will not cancel any previous delayed setStates
+setState(newState);
+
+// using with delay
+// duration unit is millisecond
+setState(newState, duration);
+
+// canceling any ongoing delayed state
+cancelSetState();
+
+// setState along with setState with delay
+// below codes setState to newState and it will setState to futureState after 2s
+// be aware order is important because setState without delay cancels all ongoing delayed setStates
+setState(()=>newState);
+setState(()=>futureState, 2000);
+```
+
+
 
 
 ## License
