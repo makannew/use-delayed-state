@@ -49,20 +49,21 @@ In above example `State` will be updated after 5 second.
 ```jsx
 const [state, setState, cancelSetState] = useDelayedState(initialState);
 
-// using like regular useState hook
-// it will not cancel any previous delayed setStates
-setState(newState);
+// works like regular useState hook
+// it will not cancel any ongoing delayed setStates
+setState(newState); // or setState(newState, 0)
 
-// using with delay
+// setState with delay
 // duration unit is millisecond
+// it will cancel any ongoing delayed setStates
 setState(newState, duration);
 
 // canceling any ongoing delayed state
 cancelSetState();
 
 // setState along with setState with delay
-// below codes setState to newState and it will setState to futureState after 2s
-// be aware order is important because setState without delay cancels all ongoing delayed setStates
+// below codes set State to newState and it will set State to futureState after 2s
+// be aware order is important because these two will be set in one batch and
 setState(()=>newState);
 setState(()=>futureState, 2000);
 ```
