@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/use-delayed-state/static/css/main.572ffd21.chunk.css",
+    "main.js": "/use-delayed-state/static/js/main.3f302ad0.chunk.js",
+    "main.js.map": "/use-delayed-state/static/js/main.3f302ad0.chunk.js.map",
+    "runtime-main.js": "/use-delayed-state/static/js/runtime-main.40cad575.js",
+    "runtime-main.js.map": "/use-delayed-state/static/js/runtime-main.40cad575.js.map",
+    "static/js/2.ecf8e730.chunk.js": "/use-delayed-state/static/js/2.ecf8e730.chunk.js",
+    "static/js/2.ecf8e730.chunk.js.map": "/use-delayed-state/static/js/2.ecf8e730.chunk.js.map",
+    "index.html": "/use-delayed-state/index.html",
+    "precache-manifest.d0b558b30b7e159f2e531cc6591dec4e.js": "/use-delayed-state/precache-manifest.d0b558b30b7e159f2e531cc6591dec4e.js",
+    "service-worker.js": "/use-delayed-state/service-worker.js",
+    "static/css/main.572ffd21.chunk.css.map": "/use-delayed-state/static/css/main.572ffd21.chunk.css.map",
+    "static/js/2.ecf8e730.chunk.js.LICENSE.txt": "/use-delayed-state/static/js/2.ecf8e730.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40cad575.js",
+    "static/js/2.ecf8e730.chunk.js",
+    "static/css/main.572ffd21.chunk.css",
+    "static/js/main.3f302ad0.chunk.js"
+  ]
+}
