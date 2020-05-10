@@ -20,8 +20,8 @@ const App = () => {
   return (
     <div>
       <p className='description'>
-        In this example while user is typing, state is updated only after
-        passing delay time.
+        In this example State will be updated after debouncing delay. Try it by
+        typing in textarea.
       </p>
       <div className='container'>
         <div className='form-container'>
@@ -54,6 +54,14 @@ const App = () => {
             <p className={updating ? 'updating' : ''}>{state}</p>
           </form>
         </div>
+      </div>
+      <div className='links'>
+        <a href='https://github.com/makannew/use-delayed-state/blob/master/example/src/App.js'>
+          Source code
+        </a>
+        <a href='https://github.com/makannew/use-delayed-state'>
+          use-delayed-state
+        </a>
       </div>
     </div>
   )

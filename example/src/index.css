@@ -41,6 +41,7 @@ code {
 
 form h4 {
   padding: 20px 0;
+  font-weight: 500;
 }
 form {
   display: flex;
@@ -92,4 +93,24 @@ form > label {
   margin: 20px auto;
   padding: 15px 20px;
   text-align: left;
+}
+
+a {
+  background: #d8d8d8;
+  text-decoration: none;
+  font-size: 12px;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 6px 12px;
+  margin: 10px 20px;
+  color: #070707;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  min-width: 300px;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
