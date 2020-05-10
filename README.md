@@ -63,9 +63,8 @@ cancelSetState();
 
 // setState along with setState with delay
 // below codes set State to newState and it will set State to futureState after 2s
-// be aware order is important because these two will be set in one batch and
-setState(()=>newState);
-setState(()=>futureState, 2000);
+setState(newState);
+setState(futureState, 2000);
 ```
 
 
