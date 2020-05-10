@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/use-delayed-state.svg)](https://www.npmjs.com/package/use-delayed-state) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-This is an enhanced `useState` hook which accepts delay for `setState` as an extra argument.
+This is an enhanced `useState` hook which accepts delay for `setState` as an extra argument. In most basic form it works same as React `useState` hook.
 
 ## Use cases
 
