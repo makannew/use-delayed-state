@@ -61,7 +61,7 @@ setState(newState, duration);
 // canceling any ongoing delayed state
 cancelSetState();
 
-// setState along with setState with delay
+// setState along with setState with delay in one render
 // below codes set State to newState and it will set State to futureState after 2s
 setState(newState);
 setState(futureState, 2000);
