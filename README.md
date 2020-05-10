@@ -6,7 +6,7 @@
 
 This is an enhanced `useState` hook which accepts delay for `setState` as an extra argument.
 
-# Use cases
+## Use cases
 
 It is usefull feature for [debouncing](https://css-tricks.com/debouncing-throttling-explained-examples/#article-header-id-0) which simply delays all consecuative attempts for setting a state to make sure only the last one which persists for certain amount of time is valid as new state.
 
