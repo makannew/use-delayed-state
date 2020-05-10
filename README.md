@@ -39,7 +39,7 @@ export default function myComponent() {
 ```
 In above example `State` will be updated after 5 second.
 
-For more advance usage [debouncing example](https://makannew.github.io/use-delayed-state/) is provided.
+[Debouncing example](https://makannew.github.io/use-delayed-state/) is more advance implementation of this hook which the source code available [here](https://github.com/makannew/use-delayed-state/blob/master/example/src/App.js).
 
 
 
