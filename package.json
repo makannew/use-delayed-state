@@ -2,6 +2,13 @@
   "name": "use-delayed-state",
   "version": "1.0.0",
   "description": "React hook for setting State with delay",
+  "keywords": [
+    "react",
+    "hook",
+    "setState",
+    "delay",
+    "debouncing"
+  ],
   "author": "makannew",
   "license": "MIT",
   "repository": "makannew/use-delayed-state",
