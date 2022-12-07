@@ -50,7 +50,7 @@ In above example `State` will be updated after 5 second.
 const [state, setState, cancelSetState] = useDelayedState(initialState);
 
 // works like regular useState hook
-// it will not cancel any ongoing delayed setStates
+// it will also cancel any ongoing delayed setStates
 setState(newState); // or setState(newState, 0)
 
 // setState with delay
