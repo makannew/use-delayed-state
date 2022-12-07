@@ -3,11 +3,9 @@ import React, { useState, useEffect } from 'react'
 import useDelayedState from 'use-delayed-state'
 
 const App = () => {
-  const [state, setState, cancelSetState] = useDelayedState('')
+  const [state, setState] = useDelayedState('')
   const [delay, setDelay] = useState(900)
-  const [updating, setUpdating, cancelSetUpdating] = useDelayedState(
-    () => false
-  )
+  const [updating, setUpdating] = useDelayedState(() => false)
   function handleChange(e) {
     setState(e.target.value, delay)
   }
@@ -15,7 +13,7 @@ const App = () => {
   useEffect(() => {
     setUpdating(() => true)
     setUpdating(() => false, 1000)
-  }, [state])
+  }, [state, setUpdating])
 
   return (
     <div>
